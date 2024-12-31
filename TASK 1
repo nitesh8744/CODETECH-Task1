@@ -1,0 +1,28 @@
+/*CALCULATOR*/
+
+print("Welcome to Calculator")
+num1 = int(input("Enter first number: "))
+k= isinstance (num1, int)
+if k:
+    num2 = input("Enter second number: ")
+    opr = input("Enter Mathematical operation : ")
+    output = 0
+    if(opr == "Add"):
+        output = int(num1) + int(num2)
+        print(output)
+
+    elif(opr == "Sub"):
+        output = int(num1) - int(num2)
+        print(output)
+    
+    elif(opr =="Div"):
+        output = int(num1) / int(num2)
+        print(output)
+    
+    elif(opr=="Mul"):
+        output=int(num1) * int(num2)
+        print(output)
+    else:
+        print("Please Check Your Input")
+else:
+    print("Enter a valid input")
