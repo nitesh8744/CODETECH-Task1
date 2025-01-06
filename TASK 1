@@ -1,4 +1,4 @@
-/*CALCULATOR*/
+/* WELCOME TO CALCULATOR*/
 
 print("Welcome to Calculator")
 num1 = int(input("Enter first number: "))
